@@ -1,3 +1,5 @@
+function [containingTriangle] = findTriangle(point, workArray, trianglesArray)
+
 % function that check which of the triangles the new point is in
 
 % input - index of the studied point, arrays of points and triangles
@@ -10,8 +12,6 @@
 % and calculate on which side of the current line our point lies. 
 % If the point for all lines lies on the left side, then the point belongs to the triangle, 
 % if at least for some line it lies on the right side, then the condition is not satisfied.
-
-function [containingTriangle] = findTriangle(point, workArray, trianglesArray)
 
     triangleArrayLength = size(trianglesArray, 2);
     

@@ -1,9 +1,9 @@
+function [newTriangles] = createNewTriangles(oldTriangle, point, trianglesArray)
+
 % function that creates 3 new triangles from one old one and a point inside it
 
 % input - index of the old triangle, index of insiding point and arrays of triangles
 % output - column-vector, that contains indexes of new triangles
-
-function [newTriangles] = createNewTriangles(oldTriangle, point, trianglesArray)
 
     % define vertices of the old triangle
     vertex1 = trianglesArray(1, oldTriangle);
