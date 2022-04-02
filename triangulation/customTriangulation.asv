@@ -48,7 +48,7 @@ pause(updateTime);
 
 % main loop
 % at each iteration we add a point and build the current triangulation
-for i = 1:length
+for i = 1:4
 
     % adding a point at work array and at the plot
     workArray(:, end + 1) = [table2array(points(i,"X")); table2array(points(i,"Y"))];
@@ -127,9 +127,11 @@ for i = 1:length
 
     % find adjacent sides
     adjacentSides = findAdjacentSides(badTriangles);
+    
+
 
     % delete triangle-columns in arrays
-    for j = 1:size(badTrianglesIndexes, 2)
+    for j = 1:size(badTrianglesIndexes)
         delete(linesArray(1, badTrianglesIndexes(j)));
         delete(linesArray(2, badTrianglesIndexes(j)));
         delete(linesArray(3, badTrianglesIndexes(j)));
