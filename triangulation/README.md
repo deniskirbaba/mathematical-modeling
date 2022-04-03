@@ -5,7 +5,7 @@
 The purpose of this work is to study the methods of triangulation on the plane and the implementation of iterative construction of triangular grids based on the Delaunay criterion.
 
 <p align="center">
-  <img width="600" src="https://user-images.githubusercontent.com/75897943/161420625-c24fc885-b04c-46bc-885f-ff9f5520965a.png">
+  <img width="600" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/plane_triangulation.jpg">
   <h6 align="center"><em>Figure 1. Triangulation of the space around the aircraft model for solving the problem of aerodynamics</em></h6>
 </p>
 
@@ -20,7 +20,7 @@ In the two-dimensional case, there is a simple method for reducing an arbitrary 
 The idea is based on the fact that a pair of triangles that do not satisfy the Delaunay criterion can be replaced by a pair of dual triangles that already necessarily satisfy the criterion. This is achieved by rearranging the inner edge of the quadrilateral formed by the triangles (see Figure below). The operation "flip" is continued iteratively for each pair of triangles that do not satisfy the criterion, until such triangles remain.
 
 <p align="center">
-  <img width="350" src="https://user-images.githubusercontent.com/75897943/161420703-fd582ad3-9c2a-4915-a1cb-5fc06c4c3797.png">
+  <img width="350" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/flip.png">
   <h6 align="center"><em>Figure 2. A grid that satisfies the Delaunay criterion (left) and does not satisfy it (right)</em></h6>
 </p>
 
@@ -51,21 +51,21 @@ The input data is a randomly generated array of points on the plane contained in
 # Visualization of the program
 
 <p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/75897943/161421564-78ec5b89-8a0b-48c8-86f0-d4474fee462c.png">
+  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/initialDots.png">
   <h6 align="center"><em>Figure 3. Location of anchor points</em></h6>
 </p>
 
 <p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/75897943/161421564-78ec5b89-8a0b-48c8-86f0-d4474fee462c.png">
+  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/150dots.png">
   <h6 align="center"><em>Figure 4. Grid at 50% completed program (150 dots)</em></h6>
 </p>
 
 <p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/75897943/161421411-0bd73693-2eea-4758-ae1c-bdd8c58dc0ab.png">
+  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/customTriangulation.png">
   <h6 align="center"><em>Figure 5. The final grid of the customTriangulation.m program</em></h6>
 </p>
 
 <p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/75897943/161421411-0bd73693-2eea-4758-ae1c-bdd8c58dc0ab.png">
+  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/builtinTriangulation.png">
   <h6 align="center"><em>Figure 6. The grid of the builtinTriangulation.m program</em></h6>
 </p>
