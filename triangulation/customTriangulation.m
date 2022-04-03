@@ -1,5 +1,5 @@
 % plot update speed (in seconds)
-updateTime = 0.5;
+updateTime = 0;
 
 % reading an array of points
 points = readtable('points.dat');
@@ -188,11 +188,27 @@ for i = 1:length
         end
     end
     pause(updateTime);
-%     if (i ==4)
-%     for j = 1:10
-%         delete(linesArray(1, j));
-%         delete(linesArray(2, j));
-%         delete(linesArray(3, j));
-%     end
-%     end
 end
+
+% removal from the mesh of all triangles whose vertices include auxiliary
+% nodes used to build the "super-rectangle"
+% the result is a mesh built only on the given nodes from "points.dat"
+removingTrianglesIndexes = [];
+for i = 1:size(trianglesArray, 2)
+    condition = ismember(1, trianglesArray(1:3, i)) || ...
+                ismember(2, trianglesArray(1:3, i)) || ...
+                ismember(3, trianglesArray(1:3, i)) || ...
+                ismember(4, trianglesArray(1:3, i));
+    if (condition)
+        delete(linesArray(1, i));
+        delete(linesArray(2, i));
+        delete(linesArray(3, i));
+        removingTrianglesIndexes(end + 1) = i;
+    end
+end
+trianglesArray(:, removingTrianglesIndexes(:)) = [];
+linesArray(:, removingTrianglesIndexes(:)) = [];
+
+% remove super-rectangle vertices
+scatter_plot.XData = workArray(1, 5:end);
+scatter_plot.YData = workArray(2, 5:end);
