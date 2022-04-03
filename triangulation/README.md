@@ -1,5 +1,8 @@
 ## Delaunay triangulation
 
+![](https://github.com/pivp/mathematical-modeling/blob/46ddd6610fb74615f6094a8dd1a0ded1d7da16b0/triangulation/visualization/triangulation.gif)
+<h6 align="center"><em>Work of the built program</em></h6>
+
 # Task description
 
 The purpose of this work is to study the methods of triangulation on the plane and the implementation of iterative construction of triangular grids based on the Delaunay criterion.
