@@ -2,4 +2,4 @@
 
 # Task description
 
-Two mathematical subsystems are given, each of which is located in the space $\mathbb{R}^2$
+Two mathematical subsystems are given, each of which is located in the space $x + y$
