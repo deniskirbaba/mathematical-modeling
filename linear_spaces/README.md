@@ -1,5 +1,5 @@
 ## Linear spaces
 
-# Task description
+Task description in the *task.pdf*  
 
-Two mathematical subsystems are given, each of which is located in the space R^2.
+Th solution to the problem is in the *linear_spaces.nb* Wolfram Methematica file
