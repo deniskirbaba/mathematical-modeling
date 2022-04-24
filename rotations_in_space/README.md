@@ -17,21 +17,9 @@ Any rotation in three-dimensional space can be represented as a composition of r
 # Visualization of the program
 
 <p align="center">
-  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/initialDots.png">
-  <h6 align="center"><em>Figure 3. Location of anchor points</em></h6>
+  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/496bbae46e1b7ea325eae8eae74af3d63b9a6251/rotations_in_space/visualization/cubes.png">
 </p>
 
 <p align="center">
-  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/150dots.png">
-  <h6 align="center"><em>Figure 4. Grid at 50% completed program (150 dots)</em></h6>
-</p>
-
-<p align="center">
-  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/customTriangulation.png">
-  <h6 align="center"><em>Figure 5. The final grid of the customTriangulation.m program</em></h6>
-</p>
-
-<p align="center">
-  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/builtinTriangulation.png">
-  <h6 align="center"><em>Figure 6. The grid of the builtinTriangulation.m program</em></h6>
+  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/496bbae46e1b7ea325eae8eae74af3d63b9a6251/rotations_in_space/visualization/cubes2.png">
 </p>
