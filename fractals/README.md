@@ -1,8 +1,5 @@
 ## Fractals
 
-![]()
-<h6 align="center"><em>Work of the built program</em></h6>
-
 # Task description
 
 The task of the work is as follows: to study the concept of fractals and implement their own fractal set in Wolfram Mathematica app.  
@@ -10,8 +7,8 @@ The task of the work is as follows: to study the concept of fractals and impleme
 A fractal is a set that has the property of self-similarity (an object that exactly or approximately coincides with a part of itself, that is, the whole has the same shape as one or more parts).  
 
 <p align="center">
-  <img width="600" src="">
-  <h6 align="center"><em>Figure 1. The Mandelbrot set is a classic example of a fractal</em></h6>
+  <img width="600" src="https://github.com/pivp/mathematical-modeling/blob/32fc7569c913c50864cb9d56d29598fa9aa262f3/fractals/visualization/mandelbrot.jpg">
+  <h6 align="center"><em>The Mandelbrot set is a classic example of a fractal</em></h6>
 </p>
 
 Necessary condition for a fractal: with one iteration of crushing, more than one figure similar to the figure in the previous iteration appears.  
@@ -33,22 +30,9 @@ At the end, we visualize the resulting fractal object in two ways: with and with
 
 # Visualization of the program
 
-<p align="center">
-  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/initialDots.png">
-  <h6 align="center"><em>Figure 3. Location of anchor points</em></h6>
-</p>
-
-<p align="center">
-  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/150dots.png">
-  <h6 align="center"><em>Figure 4. Grid at 50% completed program (150 dots)</em></h6>
-</p>
-
-<p align="center">
-  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/customTriangulation.png">
-  <h6 align="center"><em>Figure 5. The final grid of the customTriangulation.m program</em></h6>
-</p>
-
-<p align="center">
-  <img width="800" src="https://github.com/pivp/mathematical-modeling/blob/76ad7c82bd954fbfb8d78bad9820f87636a1314f/triangulation/visualization/builtinTriangulation.png">
-  <h6 align="center"><em>Figure 6. The grid of the builtinTriangulation.m program</em></h6>
-</p>
+![](https://github.com/pivp/mathematical-modeling/blob/32fc7569c913c50864cb9d56d29598fa9aa262f3/fractals/visualization/onlyExtreme.gif)
+<h6 align="center"><em>Work of the built program wihout the central triangles</em></h6>
+  
+  
+![](https://github.com/pivp/mathematical-modeling/blob/32fc7569c913c50864cb9d56d29598fa9aa262f3/fractals/visualization/withCentral.gif)
+<h6 align="center"><em>Work of the built program with the central triangles</em></h6>
