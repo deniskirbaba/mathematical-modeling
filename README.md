@@ -16,3 +16,9 @@ nearest separable vector
 ## Fractals
 
 ![](https://github.com/pivp/mathematical-modeling/blob/64f1942544d15f76cbd4e09b5ea1a9ee39a1baf2/fractals/visualization/onlyExtreme.gif)
+
+## Rotations and displacements in space
+
+<p>
+  <img width="600" src="https://github.com/pivp/mathematical-modeling/blob/496bbae46e1b7ea325eae8eae74af3d63b9a6251/rotations_in_space/visualization/cubes.png">
+</p>
