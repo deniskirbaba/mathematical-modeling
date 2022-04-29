@@ -22,3 +22,7 @@ nearest separable vector
 <p>
   <img width="600" src="https://github.com/pivp/mathematical-modeling/blob/496bbae46e1b7ea325eae8eae74af3d63b9a6251/rotations_in_space/visualization/cubes.png">
 </p>
+
+## Gear modeling
+
+![](https://github.com/pivp/mathematical-modeling/blob/7ab726c300123158df32631ad1528de8295ef811/gears/gears.gif)
