@@ -26,3 +26,7 @@ nearest separable vector
 ## Gear modeling
 
 ![](https://github.com/pivp/mathematical-modeling/blob/7ab726c300123158df32631ad1528de8295ef811/gears/gears.gif)
+
+## String and membrane modeling
+
+![](https://github.com/pivp/mathematical-modeling/blob/1c3129fd26457efd358e022f25ac45370b323f39/string_and_membrane/visualization/string.gif)
